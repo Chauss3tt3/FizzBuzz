@@ -1,0 +1,14 @@
+Voilà 3 versions du fizzbuzz toutes en python et réalisées avec doctest
+la particularité de doctest est qu'on réalise la doc et les tests unitaires
+en même temps
+Pour les lancer :
+
+	python fizzbuzz.py
+	python fizzbuzz2emeversion.py
+	python versionFinale.py
+
+Cette commande appelle le main et lance les TU si tout est ok affiche les 100 premiers
+
+Pour générer la doc :
+	pydoc -w ./fizzbuzz.py
+
